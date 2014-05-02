@@ -1,0 +1,10 @@
+touch joshua.txt
+echo "My name is Joshua" >> joshua.txt
+echo "I like pizza" >> joshua.txt
+echo "I live in Brooklyn" >> joshua.txt
+cat joshua.txt
+cat joshua.txt >> joshuacopy.txt
+mv joshuacopy.txt stevenrules.txt
+cat joshua.txt stevenrules.txt >> everything.txt
+echo "I like pina coladas and getting caught in the rain" >> everything.txt
+echo *.txt >> textfileslist.txt
